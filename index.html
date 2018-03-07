@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Online Registration</title>
 </head>
@@ -18,7 +18,7 @@
         <hr class="thick">
         <hr class="thin">
 
-        <form action="">
+        <form action="index.html">
             <fieldset class="contact">
                 <legend>Contact Information</legend>
 
@@ -99,20 +99,20 @@
             <fieldset>
                 <legend>Newsletter</legend>
 
-                <label for="newsletter">Select the newsletters you would like to recieve</label>
+                <label>Select the newsletters you would like to recieve</label>
                 <div class="checkboxes">
-                    <input type="checkbox" name="newsletter" id="html"> HTML News
+                    <input type="checkbox" name="newsletter" id="html"><label for='html'>HTML News</label>
                     <br>
-                    <input type="checkbox" name="newsletter" id="css">  CSS News
+                    <input type="checkbox" name="newsletter" id="css"><label for='css'>CSS News</label>
                     <br>
-                    <input type="checkbox" name="newsletter" id="javascript"> Javascript News
+                    <input type="checkbox" name="newsletter" id="javascript"><label for='javascript'>Javascript News</label>
                 </div>
 
-                <label for="format">Newsletter format</label>
+                <label>Newsletter format</label>
                 <div class="radios">
-                    <input type="radio" name="format" id="html"> HTML
+                    <input type="radio" name="format" id="html_format"> <label for='html_format'>HTML</label>
                     <br>
-                    <input type="radio" name="format" id="text"> Plain Text
+                    <input type="radio" name="format" id="text_format"> <label for='text_format'>Plain Text</label>
                 </div>
                 
                 <label for="other">Other topics you'd like to hear about</label>
